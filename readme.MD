@@ -1,6 +1,6 @@
 This is a simple OCR project with has an API endpoint. Send an image to that API endpoint and it will return the extracted text.
 
-Send image file as a form-data with key value "filename"
+Send image file as a form-data with key value "filename"<br />
 API endpoint: /fetch/
 
 Sample response:
