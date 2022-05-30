@@ -13,4 +13,8 @@ To run this project:
 2) Install all dependencies from requirements.txt file and run the ocr.py file with command python ocr.py
 3) Application is running now, send request to the endpoint mentioned above and receive the respone.
 
+Docker command to run this project:
+1) docker build --build-arg OCR_KEY=YOUR_FREE_API_KEY_FROM_OCR_SPACE -t <your_image_tage> .
+2) docker run -d -p 5000:5000 <image_name>
+
 #### This project is a part of demonstrating implementation of kubernetes. This application will be considered as a microservice and will be deployed using kubernetes.
