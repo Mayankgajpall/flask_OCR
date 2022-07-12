@@ -1,4 +1,5 @@
 This is a simple OCR project which has an API endpoint. Send an image to that API endpoint and it will return the extracted text.
+#### Gitthub actions workflow can also be seen for pushing of docker image to docker hub with each merge to master branch.
 
 Send image file as a form-data with key value "filename"<br />
 API endpoint: /fetch/
